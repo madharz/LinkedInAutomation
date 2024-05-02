@@ -16,7 +16,6 @@ namespace LinkedInApp
         private IWebDriver _driver;
         private const string url = "https://www.linkedin.com/login";
 
-
         public LinkedInAutomation(Configuration config, CredentialsManager credentialsManager)
         {
             _configuration = config;
