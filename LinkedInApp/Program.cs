@@ -13,8 +13,8 @@ class Program
     {
         var config = new Configuration();
         var credentials = new CredentialsManager();
-
         var linkedInAutomation = new LinkedInAutomation(config, credentials);
+
         linkedInAutomation.Login();
         Console.WriteLine("Press Enter to continue after logging in to your account...");
         Console.ReadLine();
